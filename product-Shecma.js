@@ -28,8 +28,9 @@ const productSchema = new mongoose.Schema({
         required: true
     },
     discount: {
-        type: Number,
-        default: 0
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Inventory',
+        required: true
     },
     created_at: {
         type: Date,
