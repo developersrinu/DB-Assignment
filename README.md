@@ -5,7 +5,7 @@ Based on the provided context, the "Product" and "Product_Category" entities hav
 
 
 
-2. How could you ensure that each product in the "Product" table has a valid category assigned to it?
+<h1>2. How could you ensure that each product in the "Product" table has a valid category assigned to it?</h1>
 
 To ensure that each product in the "Product" table has a valid category assigned to it, we could implement a foreign key constraint between the "category_id" column in the "Product" table and the "id" column in the "Product_Category" table. This would ensure that any attempt to insert a product into the "Product" table with an invalid or non-existent "category_id" would result in an error.
 
